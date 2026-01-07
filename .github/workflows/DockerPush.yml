@@ -27,5 +27,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/mon-application:latest
-            ${{ secrets.DOCKER_USERNAME }}/mon-application:${{ github.sha }}
+            ${{ secrets.DOCKER_USERNAME }}/mini-projet-docker-deploy:latest
+            ${{ secrets.DOCKER_USERNAME }}/mini-projet-docker-deploy:${{ github.sha }}
